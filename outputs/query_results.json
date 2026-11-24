@@ -1,0 +1,927 @@
+{
+  "01_status_overview": [
+    {
+      "status": "success",
+      "tx_count": 46272,
+      "pct_of_total": 92.46,
+      "total_amount_ngn": 704131150.0,
+      "total_fee_ngn": 2773526.75
+    },
+    {
+      "status": "failed",
+      "tx_count": 2562,
+      "pct_of_total": 5.12,
+      "total_amount_ngn": 39578550.0,
+      "total_fee_ngn": 0.0
+    },
+    {
+      "status": "pending",
+      "tx_count": 688,
+      "pct_of_total": 1.37,
+      "total_amount_ngn": 10954300.0,
+      "total_fee_ngn": 0.0
+    },
+    {
+      "status": "reversed",
+      "tx_count": 526,
+      "pct_of_total": 1.05,
+      "total_amount_ngn": 8784600.0,
+      "total_fee_ngn": 0.0
+    }
+  ],
+  "02_failure_rate_by_gateway": [
+    {
+      "gateway": "GatewayBeta",
+      "total_tx": 16632,
+      "success_rate_pct": 90.03,
+      "failure_rate_pct": 6.93,
+      "pending_rate_pct": 1.81,
+      "reversed_rate_pct": 1.24,
+      "avg_amount_ngn": 15311.84,
+      "failed_volume_ngn": 17961900.0
+    },
+    {
+      "gateway": "GatewayGamma",
+      "total_tx": 11035,
+      "success_rate_pct": 92.53,
+      "failure_rate_pct": 5.14,
+      "pending_rate_pct": 1.4,
+      "reversed_rate_pct": 0.92,
+      "avg_amount_ngn": 15210.46,
+      "failed_volume_ngn": 9161950.0
+    },
+    {
+      "gateway": "GatewayAlpha",
+      "total_tx": 22381,
+      "success_rate_pct": 94.22,
+      "failure_rate_pct": 3.77,
+      "pending_rate_pct": 1.04,
+      "reversed_rate_pct": 0.97,
+      "avg_amount_ngn": 15233.22,
+      "failed_volume_ngn": 12454700.0
+    }
+  ],
+  "03_revenue_by_service": [
+    {
+      "service": "data",
+      "success_tx": 12952,
+      "gmv_ngn": 63167300.0,
+      "gmv_share_pct": 8.97,
+      "fee_revenue_ngn": 1263346.0,
+      "fee_share_pct": 45.55,
+      "avg_ticket_ngn": 4877.03
+    },
+    {
+      "service": "electricity",
+      "success_tx": 5422,
+      "gmv_ngn": 82144800.0,
+      "gmv_share_pct": 11.67,
+      "fee_revenue_ngn": 542200.0,
+      "fee_share_pct": 19.55,
+      "avg_ticket_ngn": 15150.28
+    },
+    {
+      "service": "cable_tv",
+      "success_tx": 3670,
+      "gmv_ngn": 49298300.0,
+      "gmv_share_pct": 7.0,
+      "fee_revenue_ngn": 367000.0,
+      "fee_share_pct": 13.23,
+      "avg_ticket_ngn": 13432.78
+    },
+    {
+      "service": "airtime",
+      "success_tx": 13999,
+      "gmv_ngn": 23017050.0,
+      "gmv_share_pct": 3.27,
+      "fee_revenue_ngn": 345255.75,
+      "fee_share_pct": 12.45,
+      "avg_ticket_ngn": 1644.19
+    },
+    {
+      "service": "transfers",
+      "success_tx": 10229,
+      "gmv_ngn": 486503700.0,
+      "gmv_share_pct": 69.09,
+      "fee_revenue_ngn": 255725.0,
+      "fee_share_pct": 9.22,
+      "avg_ticket_ngn": 47561.22
+    }
+  ],
+  "04_monthly_volume_and_mom_growth": [
+    {
+      "month": "2025-01",
+      "total_tx": 1197,
+      "success_tx": 1110,
+      "gmv_ngn": 16152000.0,
+      "fee_revenue_ngn": 65926.75,
+      "mom_tx_growth_pct": NaN
+    },
+    {
+      "month": "2025-02",
+      "total_tx": 2621,
+      "success_tx": 2416,
+      "gmv_ngn": 37334250.0,
+      "fee_revenue_ngn": 140767.0,
+      "mom_tx_growth_pct": 118.96
+    },
+    {
+      "month": "2025-03",
+      "total_tx": 3805,
+      "success_tx": 3511,
+      "gmv_ngn": 52324400.0,
+      "fee_revenue_ngn": 217504.0,
+      "mom_tx_growth_pct": 45.17
+    },
+    {
+      "month": "2025-04",
+      "total_tx": 3852,
+      "success_tx": 3558,
+      "gmv_ngn": 55322650.0,
+      "fee_revenue_ngn": 216338.75,
+      "mom_tx_growth_pct": 1.24
+    },
+    {
+      "month": "2025-05",
+      "total_tx": 4486,
+      "success_tx": 4151,
+      "gmv_ngn": 61297800.0,
+      "fee_revenue_ngn": 253881.0,
+      "mom_tx_growth_pct": 16.46
+    },
+    {
+      "month": "2025-06",
+      "total_tx": 4162,
+      "success_tx": 3867,
+      "gmv_ngn": 61567950.0,
+      "fee_revenue_ngn": 232541.25,
+      "mom_tx_growth_pct": -7.22
+    },
+    {
+      "month": "2025-07",
+      "total_tx": 4467,
+      "success_tx": 4148,
+      "gmv_ngn": 61416250.0,
+      "fee_revenue_ngn": 239825.25,
+      "mom_tx_growth_pct": 7.33
+    },
+    {
+      "month": "2025-08",
+      "total_tx": 4772,
+      "success_tx": 4369,
+      "gmv_ngn": 65433300.0,
+      "fee_revenue_ngn": 265849.5,
+      "mom_tx_growth_pct": 6.83
+    },
+    {
+      "month": "2025-09",
+      "total_tx": 4566,
+      "success_tx": 4232,
+      "gmv_ngn": 66276800.0,
+      "fee_revenue_ngn": 255010.75,
+      "mom_tx_growth_pct": -4.32
+    },
+    {
+      "month": "2025-10",
+      "total_tx": 4474,
+      "success_tx": 4136,
+      "gmv_ngn": 62855750.0,
+      "fee_revenue_ngn": 252355.25,
+      "mom_tx_growth_pct": -2.01
+    },
+    {
+      "month": "2025-11",
+      "total_tx": 4807,
+      "success_tx": 4450,
+      "gmv_ngn": 65311550.0,
+      "fee_revenue_ngn": 263858.0,
+      "mom_tx_growth_pct": 7.44
+    },
+    {
+      "month": "2025-12",
+      "total_tx": 6839,
+      "success_tx": 6324,
+      "gmv_ngn": 98838450.0,
+      "fee_revenue_ngn": 369669.25,
+      "mom_tx_growth_pct": 42.27
+    }
+  ],
+  "05_worst_gateway_outage_days": [
+    {
+      "tx_date": "2025-08-14",
+      "gateway": "GatewayBeta",
+      "total_tx": 51,
+      "failed_tx": 34,
+      "failure_rate_pct": 66.67,
+      "failure_rank": 1
+    },
+    {
+      "tx_date": "2025-08-15",
+      "gateway": "GatewayBeta",
+      "total_tx": 47,
+      "failed_tx": 18,
+      "failure_rate_pct": 38.3,
+      "failure_rank": 2
+    },
+    {
+      "tx_date": "2025-06-02",
+      "gateway": "GatewayGamma",
+      "total_tx": 24,
+      "failed_tx": 5,
+      "failure_rate_pct": 20.83,
+      "failure_rank": 3
+    },
+    {
+      "tx_date": "2025-07-01",
+      "gateway": "GatewayGamma",
+      "total_tx": 22,
+      "failed_tx": 4,
+      "failure_rate_pct": 18.18,
+      "failure_rank": 4
+    },
+    {
+      "tx_date": "2025-04-23",
+      "gateway": "GatewayGamma",
+      "total_tx": 28,
+      "failed_tx": 5,
+      "failure_rate_pct": 17.86,
+      "failure_rank": 5
+    }
+  ],
+  "06_peak_hours": [
+    {
+      "hour_of_day": 0,
+      "total_tx": 361,
+      "pct_of_daily_tx": 0.72,
+      "failure_rate_pct": 4.99
+    },
+    {
+      "hour_of_day": 1,
+      "total_tx": 239,
+      "pct_of_daily_tx": 0.48,
+      "failure_rate_pct": 8.37
+    },
+    {
+      "hour_of_day": 2,
+      "total_tx": 158,
+      "pct_of_daily_tx": 0.32,
+      "failure_rate_pct": 7.59
+    },
+    {
+      "hour_of_day": 3,
+      "total_tx": 168,
+      "pct_of_daily_tx": 0.34,
+      "failure_rate_pct": 2.98
+    },
+    {
+      "hour_of_day": 4,
+      "total_tx": 276,
+      "pct_of_daily_tx": 0.55,
+      "failure_rate_pct": 6.52
+    },
+    {
+      "hour_of_day": 5,
+      "total_tx": 501,
+      "pct_of_daily_tx": 1.0,
+      "failure_rate_pct": 3.99
+    },
+    {
+      "hour_of_day": 6,
+      "total_tx": 994,
+      "pct_of_daily_tx": 1.99,
+      "failure_rate_pct": 5.53
+    },
+    {
+      "hour_of_day": 7,
+      "total_tx": 1837,
+      "pct_of_daily_tx": 3.67,
+      "failure_rate_pct": 5.99
+    },
+    {
+      "hour_of_day": 8,
+      "total_tx": 2755,
+      "pct_of_daily_tx": 5.5,
+      "failure_rate_pct": 4.94
+    },
+    {
+      "hour_of_day": 9,
+      "total_tx": 2974,
+      "pct_of_daily_tx": 5.94,
+      "failure_rate_pct": 5.75
+    },
+    {
+      "hour_of_day": 10,
+      "total_tx": 3104,
+      "pct_of_daily_tx": 6.2,
+      "failure_rate_pct": 4.51
+    },
+    {
+      "hour_of_day": 11,
+      "total_tx": 3262,
+      "pct_of_daily_tx": 6.52,
+      "failure_rate_pct": 5.09
+    },
+    {
+      "hour_of_day": 12,
+      "total_tx": 3614,
+      "pct_of_daily_tx": 7.22,
+      "failure_rate_pct": 4.43
+    },
+    {
+      "hour_of_day": 13,
+      "total_tx": 3618,
+      "pct_of_daily_tx": 7.23,
+      "failure_rate_pct": 4.98
+    },
+    {
+      "hour_of_day": 14,
+      "total_tx": 3329,
+      "pct_of_daily_tx": 6.65,
+      "failure_rate_pct": 5.11
+    },
+    {
+      "hour_of_day": 15,
+      "total_tx": 3235,
+      "pct_of_daily_tx": 6.46,
+      "failure_rate_pct": 4.82
+    },
+    {
+      "hour_of_day": 16,
+      "total_tx": 3389,
+      "pct_of_daily_tx": 6.77,
+      "failure_rate_pct": 5.49
+    },
+    {
+      "hour_of_day": 17,
+      "total_tx": 3782,
+      "pct_of_daily_tx": 7.56,
+      "failure_rate_pct": 5.71
+    },
+    {
+      "hour_of_day": 18,
+      "total_tx": 3522,
+      "pct_of_daily_tx": 7.04,
+      "failure_rate_pct": 4.68
+    },
+    {
+      "hour_of_day": 19,
+      "total_tx": 3024,
+      "pct_of_daily_tx": 6.04,
+      "failure_rate_pct": 5.59
+    },
+    {
+      "hour_of_day": 20,
+      "total_tx": 2479,
+      "pct_of_daily_tx": 4.95,
+      "failure_rate_pct": 4.72
+    },
+    {
+      "hour_of_day": 21,
+      "total_tx": 1659,
+      "pct_of_daily_tx": 3.31,
+      "failure_rate_pct": 4.16
+    },
+    {
+      "hour_of_day": 22,
+      "total_tx": 1057,
+      "pct_of_daily_tx": 2.11,
+      "failure_rate_pct": 5.87
+    },
+    {
+      "hour_of_day": 23,
+      "total_tx": 711,
+      "pct_of_daily_tx": 1.42,
+      "failure_rate_pct": 5.77
+    }
+  ],
+  "07_weekend_and_monthend_lift": [
+    {
+      "week_part": "Fri-Sun",
+      "month_part": "Month-End (25-31)",
+      "num_days": 34,
+      "avg_daily_tx": 197.0,
+      "avg_daily_gmv_ngn": 2825786.76
+    },
+    {
+      "week_part": "Mon-Thu",
+      "month_part": "Month-End (25-31)",
+      "num_days": 43,
+      "avg_daily_tx": 171.5,
+      "avg_daily_gmv_ngn": 2433496.51
+    },
+    {
+      "week_part": "Fri-Sun",
+      "month_part": "Days 1-24",
+      "num_days": 122,
+      "avg_daily_tx": 136.5,
+      "avg_daily_gmv_ngn": 1898449.18
+    },
+    {
+      "week_part": "Mon-Thu",
+      "month_part": "Days 1-24",
+      "num_days": 165,
+      "avg_daily_tx": 117.1,
+      "avg_daily_gmv_ngn": 1647292.42
+    }
+  ],
+  "08_duplicate_charge_anomalies": [
+    {
+      "duplicate_pairs_detected": 49,
+      "duplicate_exposure_ngn": 529250.0,
+      "avg_seconds_apart": 31.0
+    }
+  ],
+  "09_duplicate_charge_samples": [
+    {
+      "prev_tx_id": "TXN-019285",
+      "duplicate_tx_id": "TXN-050038",
+      "user_id": "USR-01232",
+      "service": "transfers",
+      "gateway": "GatewayGamma",
+      "amount_ngn": 85000.0,
+      "seconds_apart": 49
+    },
+    {
+      "prev_tx_id": "TXN-035635",
+      "duplicate_tx_id": "TXN-050039",
+      "user_id": "USR-00467",
+      "service": "transfers",
+      "gateway": "GatewayAlpha",
+      "amount_ngn": 40900.0,
+      "seconds_apart": 0
+    },
+    {
+      "prev_tx_id": "TXN-034034",
+      "duplicate_tx_id": "TXN-050023",
+      "user_id": "USR-01499",
+      "service": "transfers",
+      "gateway": "GatewayBeta",
+      "amount_ngn": 37300.0,
+      "seconds_apart": 74
+    },
+    {
+      "prev_tx_id": "TXN-046778",
+      "duplicate_tx_id": "TXN-050008",
+      "user_id": "USR-02313",
+      "service": "cable_tv",
+      "gateway": "GatewayBeta",
+      "amount_ngn": 34000.0,
+      "seconds_apart": 42
+    },
+    {
+      "prev_tx_id": "TXN-016689",
+      "duplicate_tx_id": "TXN-050001",
+      "user_id": "USR-00256",
+      "service": "cable_tv",
+      "gateway": "GatewayBeta",
+      "amount_ngn": 33100.0,
+      "seconds_apart": 4
+    },
+    {
+      "prev_tx_id": "TXN-049193",
+      "duplicate_tx_id": "TXN-050024",
+      "user_id": "USR-00140",
+      "service": "cable_tv",
+      "gateway": "GatewayBeta",
+      "amount_ngn": 32800.0,
+      "seconds_apart": 3
+    },
+    {
+      "prev_tx_id": "TXN-019581",
+      "duplicate_tx_id": "TXN-050037",
+      "user_id": "USR-01248",
+      "service": "transfers",
+      "gateway": "GatewayAlpha",
+      "amount_ngn": 30900.0,
+      "seconds_apart": 29
+    },
+    {
+      "prev_tx_id": "TXN-007386",
+      "duplicate_tx_id": "TXN-050020",
+      "user_id": "USR-00253",
+      "service": "cable_tv",
+      "gateway": "GatewayAlpha",
+      "amount_ngn": 28100.0,
+      "seconds_apart": 2
+    },
+    {
+      "prev_tx_id": "TXN-003146",
+      "duplicate_tx_id": "TXN-050006",
+      "user_id": "USR-00506",
+      "service": "cable_tv",
+      "gateway": "GatewayAlpha",
+      "amount_ngn": 22200.0,
+      "seconds_apart": 33
+    },
+    {
+      "prev_tx_id": "TXN-031686",
+      "duplicate_tx_id": "TXN-050040",
+      "user_id": "USR-02383",
+      "service": "transfers",
+      "gateway": "GatewayGamma",
+      "amount_ngn": 18700.0,
+      "seconds_apart": 59
+    }
+  ],
+  "10_retention_cohorts": [
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 0,
+      "retained_users": 234,
+      "retention_pct": 73.8
+    },
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 1,
+      "retained_users": 272,
+      "retention_pct": 85.8
+    },
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 2,
+      "retained_users": 209,
+      "retention_pct": 65.9
+    },
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 3,
+      "retained_users": 170,
+      "retention_pct": 53.6
+    },
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 4,
+      "retained_users": 135,
+      "retention_pct": 42.6
+    },
+    {
+      "cohort_month": "2025-01",
+      "cohort_users": 317,
+      "month_offset": 5,
+      "retained_users": 127,
+      "retention_pct": 40.1
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 0,
+      "retained_users": 199,
+      "retention_pct": 71.3
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 1,
+      "retained_users": 248,
+      "retention_pct": 88.9
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 2,
+      "retained_users": 184,
+      "retention_pct": 65.9
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 3,
+      "retained_users": 145,
+      "retention_pct": 52.0
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 4,
+      "retained_users": 108,
+      "retention_pct": 38.7
+    },
+    {
+      "cohort_month": "2025-02",
+      "cohort_users": 279,
+      "month_offset": 5,
+      "retained_users": 88,
+      "retention_pct": 31.5
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 0,
+      "retained_users": 191,
+      "retention_pct": 76.1
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 1,
+      "retained_users": 223,
+      "retention_pct": 88.8
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 2,
+      "retained_users": 165,
+      "retention_pct": 65.7
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 3,
+      "retained_users": 134,
+      "retention_pct": 53.4
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 4,
+      "retained_users": 100,
+      "retention_pct": 39.8
+    },
+    {
+      "cohort_month": "2025-03",
+      "cohort_users": 251,
+      "month_offset": 5,
+      "retained_users": 87,
+      "retention_pct": 34.7
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 0,
+      "retained_users": 168,
+      "retention_pct": 78.5
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 1,
+      "retained_users": 195,
+      "retention_pct": 91.1
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 2,
+      "retained_users": 152,
+      "retention_pct": 71.0
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 3,
+      "retained_users": 114,
+      "retention_pct": 53.3
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 4,
+      "retained_users": 90,
+      "retention_pct": 42.1
+    },
+    {
+      "cohort_month": "2025-04",
+      "cohort_users": 214,
+      "month_offset": 5,
+      "retained_users": 86,
+      "retention_pct": 40.2
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 0,
+      "retained_users": 196,
+      "retention_pct": 78.4
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 1,
+      "retained_users": 223,
+      "retention_pct": 89.2
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 2,
+      "retained_users": 163,
+      "retention_pct": 65.2
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 3,
+      "retained_users": 131,
+      "retention_pct": 52.4
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 4,
+      "retained_users": 100,
+      "retention_pct": 40.0
+    },
+    {
+      "cohort_month": "2025-05",
+      "cohort_users": 250,
+      "month_offset": 5,
+      "retained_users": 77,
+      "retention_pct": 30.8
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 0,
+      "retained_users": 155,
+      "retention_pct": 78.7
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 1,
+      "retained_users": 186,
+      "retention_pct": 94.4
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 2,
+      "retained_users": 148,
+      "retention_pct": 75.1
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 3,
+      "retained_users": 114,
+      "retention_pct": 57.9
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 4,
+      "retained_users": 95,
+      "retention_pct": 48.2
+    },
+    {
+      "cohort_month": "2025-06",
+      "cohort_users": 197,
+      "month_offset": 5,
+      "retained_users": 81,
+      "retention_pct": 41.1
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 0,
+      "retained_users": 181,
+      "retention_pct": 80.8
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 1,
+      "retained_users": 211,
+      "retention_pct": 94.2
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 2,
+      "retained_users": 148,
+      "retention_pct": 66.1
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 3,
+      "retained_users": 114,
+      "retention_pct": 50.9
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 4,
+      "retained_users": 92,
+      "retention_pct": 41.1
+    },
+    {
+      "cohort_month": "2025-07",
+      "cohort_users": 224,
+      "month_offset": 5,
+      "retained_users": 78,
+      "retention_pct": 34.8
+    }
+  ],
+  "11_top_users_spend_share": [
+    {
+      "spend_rank": 1,
+      "user_id": "USR-02438",
+      "kyc_tier": "tier_3",
+      "success_tx": 58,
+      "total_spend_ngn": 1727350.0,
+      "share_pct": 0.245
+    },
+    {
+      "spend_rank": 2,
+      "user_id": "USR-01130",
+      "kyc_tier": "tier_3",
+      "success_tx": 63,
+      "total_spend_ngn": 1278600.0,
+      "share_pct": 0.182
+    },
+    {
+      "spend_rank": 3,
+      "user_id": "USR-01676",
+      "kyc_tier": "tier_3",
+      "success_tx": 53,
+      "total_spend_ngn": 1247250.0,
+      "share_pct": 0.177
+    },
+    {
+      "spend_rank": 4,
+      "user_id": "USR-01332",
+      "kyc_tier": "tier_3",
+      "success_tx": 61,
+      "total_spend_ngn": 1186800.0,
+      "share_pct": 0.169
+    },
+    {
+      "spend_rank": 5,
+      "user_id": "USR-01475",
+      "kyc_tier": "tier_3",
+      "success_tx": 56,
+      "total_spend_ngn": 1171200.0,
+      "share_pct": 0.166
+    },
+    {
+      "spend_rank": 6,
+      "user_id": "USR-02326",
+      "kyc_tier": "tier_3",
+      "success_tx": 49,
+      "total_spend_ngn": 1139100.0,
+      "share_pct": 0.162
+    },
+    {
+      "spend_rank": 7,
+      "user_id": "USR-02415",
+      "kyc_tier": "tier_1",
+      "success_tx": 33,
+      "total_spend_ngn": 1126200.0,
+      "share_pct": 0.16
+    },
+    {
+      "spend_rank": 8,
+      "user_id": "USR-01582",
+      "kyc_tier": "tier_3",
+      "success_tx": 60,
+      "total_spend_ngn": 1122000.0,
+      "share_pct": 0.159
+    },
+    {
+      "spend_rank": 9,
+      "user_id": "USR-00851",
+      "kyc_tier": "tier_3",
+      "success_tx": 56,
+      "total_spend_ngn": 1092800.0,
+      "share_pct": 0.155
+    },
+    {
+      "spend_rank": 10,
+      "user_id": "USR-01353",
+      "kyc_tier": "tier_3",
+      "success_tx": 54,
+      "total_spend_ngn": 1090250.0,
+      "share_pct": 0.155
+    }
+  ],
+  "12_high_value_failure_impact": [
+    {
+      "gateway": "GatewayBeta",
+      "high_val_tx": 3214,
+      "failed_high_val_tx": 213,
+      "high_val_fail_pct": 6.63,
+      "failed_high_val_ngn": 13480600.0
+    },
+    {
+      "gateway": "GatewayAlpha",
+      "high_val_tx": 4356,
+      "failed_high_val_tx": 170,
+      "high_val_fail_pct": 3.9,
+      "failed_high_val_ngn": 9662500.0
+    },
+    {
+      "gateway": "GatewayGamma",
+      "high_val_tx": 2131,
+      "failed_high_val_tx": 112,
+      "high_val_fail_pct": 5.26,
+      "failed_high_val_ngn": 7162200.0
+    }
+  ]
+}

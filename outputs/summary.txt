@@ -1,0 +1,158 @@
+=== 01_status_overview ===
+  status  tx_count  pct_of_total  total_amount_ngn  total_fee_ngn
+ success     46272         92.46       704131150.0     2773526.75
+  failed      2562          5.12        39578550.0           0.00
+ pending       688          1.37        10954300.0           0.00
+reversed       526          1.05         8784600.0           0.00
+
+=== 02_failure_rate_by_gateway ===
+     gateway  total_tx  success_rate_pct  failure_rate_pct  pending_rate_pct  reversed_rate_pct  avg_amount_ngn  failed_volume_ngn
+ GatewayBeta     16632             90.03              6.93              1.81               1.24        15311.84         17961900.0
+GatewayGamma     11035             92.53              5.14              1.40               0.92        15210.46          9161950.0
+GatewayAlpha     22381             94.22              3.77              1.04               0.97        15233.22         12454700.0
+
+=== 03_revenue_by_service ===
+    service  success_tx     gmv_ngn  gmv_share_pct  fee_revenue_ngn  fee_share_pct  avg_ticket_ngn
+       data       12952  63167300.0           8.97       1263346.00          45.55         4877.03
+electricity        5422  82144800.0          11.67        542200.00          19.55        15150.28
+   cable_tv        3670  49298300.0           7.00        367000.00          13.23        13432.78
+    airtime       13999  23017050.0           3.27        345255.75          12.45         1644.19
+  transfers       10229 486503700.0          69.09        255725.00           9.22        47561.22
+
+=== 04_monthly_volume_and_mom_growth ===
+  month  total_tx  success_tx    gmv_ngn  fee_revenue_ngn  mom_tx_growth_pct
+2025-01      1197        1110 16152000.0         65926.75                NaN
+2025-02      2621        2416 37334250.0        140767.00             118.96
+2025-03      3805        3511 52324400.0        217504.00              45.17
+2025-04      3852        3558 55322650.0        216338.75               1.24
+2025-05      4486        4151 61297800.0        253881.00              16.46
+2025-06      4162        3867 61567950.0        232541.25              -7.22
+2025-07      4467        4148 61416250.0        239825.25               7.33
+2025-08      4772        4369 65433300.0        265849.50               6.83
+2025-09      4566        4232 66276800.0        255010.75              -4.32
+2025-10      4474        4136 62855750.0        252355.25              -2.01
+2025-11      4807        4450 65311550.0        263858.00               7.44
+2025-12      6839        6324 98838450.0        369669.25              42.27
+
+=== 05_worst_gateway_outage_days ===
+   tx_date      gateway  total_tx  failed_tx  failure_rate_pct  failure_rank
+2025-08-14  GatewayBeta        51         34             66.67             1
+2025-08-15  GatewayBeta        47         18             38.30             2
+2025-06-02 GatewayGamma        24          5             20.83             3
+2025-07-01 GatewayGamma        22          4             18.18             4
+2025-04-23 GatewayGamma        28          5             17.86             5
+
+=== 06_peak_hours ===
+ hour_of_day  total_tx  pct_of_daily_tx  failure_rate_pct
+           0       361             0.72              4.99
+           1       239             0.48              8.37
+           2       158             0.32              7.59
+           3       168             0.34              2.98
+           4       276             0.55              6.52
+           5       501             1.00              3.99
+           6       994             1.99              5.53
+           7      1837             3.67              5.99
+           8      2755             5.50              4.94
+           9      2974             5.94              5.75
+          10      3104             6.20              4.51
+          11      3262             6.52              5.09
+          12      3614             7.22              4.43
+          13      3618             7.23              4.98
+          14      3329             6.65              5.11
+          15      3235             6.46              4.82
+          16      3389             6.77              5.49
+          17      3782             7.56              5.71
+          18      3522             7.04              4.68
+          19      3024             6.04              5.59
+          20      2479             4.95              4.72
+          21      1659             3.31              4.16
+          22      1057             2.11              5.87
+          23       711             1.42              5.77
+
+=== 07_weekend_and_monthend_lift ===
+week_part        month_part  num_days  avg_daily_tx  avg_daily_gmv_ngn
+  Fri-Sun Month-End (25-31)        34         197.0         2825786.76
+  Mon-Thu Month-End (25-31)        43         171.5         2433496.51
+  Fri-Sun         Days 1-24       122         136.5         1898449.18
+  Mon-Thu         Days 1-24       165         117.1         1647292.42
+
+=== 08_duplicate_charge_anomalies ===
+ duplicate_pairs_detected  duplicate_exposure_ngn  avg_seconds_apart
+                       49                529250.0               31.0
+
+=== 09_duplicate_charge_samples ===
+prev_tx_id duplicate_tx_id   user_id   service      gateway  amount_ngn  seconds_apart
+TXN-019285      TXN-050038 USR-01232 transfers GatewayGamma     85000.0             49
+TXN-035635      TXN-050039 USR-00467 transfers GatewayAlpha     40900.0              0
+TXN-034034      TXN-050023 USR-01499 transfers  GatewayBeta     37300.0             74
+TXN-046778      TXN-050008 USR-02313  cable_tv  GatewayBeta     34000.0             42
+TXN-016689      TXN-050001 USR-00256  cable_tv  GatewayBeta     33100.0              4
+TXN-049193      TXN-050024 USR-00140  cable_tv  GatewayBeta     32800.0              3
+TXN-019581      TXN-050037 USR-01248 transfers GatewayAlpha     30900.0             29
+TXN-007386      TXN-050020 USR-00253  cable_tv GatewayAlpha     28100.0              2
+TXN-003146      TXN-050006 USR-00506  cable_tv GatewayAlpha     22200.0             33
+TXN-031686      TXN-050040 USR-02383 transfers GatewayGamma     18700.0             59
+
+=== 10_retention_cohorts ===
+cohort_month  cohort_users  month_offset  retained_users  retention_pct
+     2025-01           317             0             234           73.8
+     2025-01           317             1             272           85.8
+     2025-01           317             2             209           65.9
+     2025-01           317             3             170           53.6
+     2025-01           317             4             135           42.6
+     2025-01           317             5             127           40.1
+     2025-02           279             0             199           71.3
+     2025-02           279             1             248           88.9
+     2025-02           279             2             184           65.9
+     2025-02           279             3             145           52.0
+     2025-02           279             4             108           38.7
+     2025-02           279             5              88           31.5
+     2025-03           251             0             191           76.1
+     2025-03           251             1             223           88.8
+     2025-03           251             2             165           65.7
+     2025-03           251             3             134           53.4
+     2025-03           251             4             100           39.8
+     2025-03           251             5              87           34.7
+     2025-04           214             0             168           78.5
+     2025-04           214             1             195           91.1
+     2025-04           214             2             152           71.0
+     2025-04           214             3             114           53.3
+     2025-04           214             4              90           42.1
+     2025-04           214             5              86           40.2
+     2025-05           250             0             196           78.4
+     2025-05           250             1             223           89.2
+     2025-05           250             2             163           65.2
+     2025-05           250             3             131           52.4
+     2025-05           250             4             100           40.0
+     2025-05           250             5              77           30.8
+     2025-06           197             0             155           78.7
+     2025-06           197             1             186           94.4
+     2025-06           197             2             148           75.1
+     2025-06           197             3             114           57.9
+     2025-06           197             4              95           48.2
+     2025-06           197             5              81           41.1
+     2025-07           224             0             181           80.8
+     2025-07           224             1             211           94.2
+     2025-07           224             2             148           66.1
+     2025-07           224             3             114           50.9
+     2025-07           224             4              92           41.1
+     2025-07           224             5              78           34.8
+
+=== 11_top_users_spend_share ===
+ spend_rank   user_id kyc_tier  success_tx  total_spend_ngn  share_pct
+          1 USR-02438   tier_3          58        1727350.0      0.245
+          2 USR-01130   tier_3          63        1278600.0      0.182
+          3 USR-01676   tier_3          53        1247250.0      0.177
+          4 USR-01332   tier_3          61        1186800.0      0.169
+          5 USR-01475   tier_3          56        1171200.0      0.166
+          6 USR-02326   tier_3          49        1139100.0      0.162
+          7 USR-02415   tier_1          33        1126200.0      0.160
+          8 USR-01582   tier_3          60        1122000.0      0.159
+          9 USR-00851   tier_3          56        1092800.0      0.155
+         10 USR-01353   tier_3          54        1090250.0      0.155
+
+=== 12_high_value_failure_impact ===
+     gateway  high_val_tx  failed_high_val_tx  high_val_fail_pct  failed_high_val_ngn
+ GatewayBeta         3214                 213               6.63           13480600.0
+GatewayAlpha         4356                 170               3.90            9662500.0
+GatewayGamma         2131                 112               5.26            7162200.0
